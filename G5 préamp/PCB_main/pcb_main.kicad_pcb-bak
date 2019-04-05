@@ -345,7 +345,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model D:/User_Lib_Kicad/Package3d/Connectors.3dshapes/MZT-223_mono.step
+    (model ${KIPRJMOD}/3D/MZT-223_mono.step
       (offset (xyz 21.5 -30.5 -4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -411,7 +411,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model D:/User_Lib_Kicad/Package3d/Connectors.3dshapes/MZT-223_mono.step
+    (model ${KIPRJMOD}/3D/MZT-223_mono.step
       (offset (xyz 21.5 -30.5 -4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -1383,7 +1383,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model D:/User_Lib_Kicad/Package3d/Connectors.3dshapes/MZT-223_stereo.step
+    (model ${KIPRJMOD}/3D/MZT-223_stereo.step
       (offset (xyz 21.5 -30.5 -4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -1540,7 +1540,7 @@
       (scale (xyz 1 0.9 1))
       (rotate (xyz 75 -90 0))
     )
-    (model D:/User_Lib_Kicad/Package3d/Connectors.3dshapes/Lumberg_NEB_21_R.stp
+    (model ${KIPRJMOD}/3D/Lumberg_NEB_21_R.stp
       (offset (xyz -1.5 0 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
