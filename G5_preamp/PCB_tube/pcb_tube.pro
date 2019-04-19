@@ -1,4 +1,4 @@
-update=03/04/2019 13:02:04
+update=12/04/2019 14:19:53
 version=1
 last_client=kicad
 [general]
@@ -74,7 +74,7 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
-Name=24DVC
+Name=24VDC
 Clearance=0.8
 TrackWidth=1
 ViaDiameter=1
