@@ -80,12 +80,12 @@ F 3 "~" H 5325 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 U1
+L Valve:ECC83 V1
 U 2 1 5CB321A6
 P 2525 3550
-AR Path="/5CB321A6" Ref="U1"  Part="2" 
+AR Path="/5CB321A6" Ref="V1"  Part="2" 
 AR Path="/5CAC8720/5CB321A6" Ref="U?"  Part="2" 
-F 0 "U1" H 2725 3900 50  0000 L CNN
+F 0 "V1" H 2725 3900 50  0000 L CNN
 F 1 "ECC83" H 2725 3800 50  0000 L CNN
 F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 2795 3150 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 2525 3550 50  0001 C CNN
@@ -287,12 +287,12 @@ Wire Wire Line
 Wire Wire Line
 	4930 3910 5325 3910
 $Comp
-L Valve:ECC83 U2
+L Valve:ECC83 V2
 U 1 1 5CB322EE
 P 7770 3600
-AR Path="/5CB322EE" Ref="U2"  Part="1" 
+AR Path="/5CB322EE" Ref="V2"  Part="1" 
 AR Path="/5CAC8720/5CB322EE" Ref="U?"  Part="1" 
-F 0 "U2" H 7420 3900 50  0000 L CNN
+F 0 "V2" H 7420 3900 50  0000 L CNN
 F 1 "ECC83" H 7330 3820 50  0000 L CNN
 F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 8040 3200 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 7770 3600 50  0001 C CNN
@@ -462,10 +462,10 @@ Wire Wire Line
 Text Label 5325 4650 0    50   ~ 0
 GNDS
 $Comp
-L Valve:ECC83 U1
+L Valve:ECC83 V1
 U 3 1 5C9EBBB7
 P 2975 6135
-F 0 "U1" H 3203 6098 50  0000 L CNN
+F 0 "V1" H 3203 6098 50  0000 L CNN
 F 1 "ECC83" H 3203 6007 50  0000 L CNN
 F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 3245 5735 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 2975 6135 50  0001 C CNN
@@ -473,10 +473,10 @@ F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 2975 6135 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Valve:ECC83 U2
+L Valve:ECC83 V2
 U 3 1 5C9ECD0F
 P 3810 6135
-F 0 "U2" H 4038 6098 50  0000 L CNN
+F 0 "V2" H 4038 6098 50  0000 L CNN
 F 1 "ECC83" H 4038 6007 50  0000 L CNN
 F 2 "ProjectLib:Valve_Noval-B9A_Belton-VT9-PT_Socket" H 4080 5735 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3810 6135 50  0001 C CNN
