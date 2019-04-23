@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Preamp G5 with Pistortion System"
+Date "2019-04-21"
+Rev "RC1"
+Comp "http://www.projetg5.com"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Licence under Creative Commons BY-NC-SA 4.0"
+Comment3 "with A-wai Amplification and LemonAmps"
+Comment4 "http://www.projetg5.com"
 $EndDescr
 $Comp
 L Device:R R1
@@ -799,7 +799,7 @@ Wire Notes Line
 	9495 2500 11215 2500
 Wire Notes Line
 	11215 2500 11215 2505
-Text Label 2875 6710 2    50   ~ 0
+Text Label 2715 6755 2    50   ~ 0
 24VDC
 Wire Wire Line
 	2335 6755 2335 6465
