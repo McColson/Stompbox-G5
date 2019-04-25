@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name nch6100hv)(type Legacy)(uri ${KIPRJMOD}/nch6100hv.lib)(options "")(descr ""))
+)
