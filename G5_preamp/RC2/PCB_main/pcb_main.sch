@@ -29,7 +29,7 @@ F 5 "TT" H 0   0   50  0001 C CNN "SPR"
 F 6 "NEB21R" H 0   0   50  0001 C CNN "MPN"
 F 7 "bu45" H 0   0   50  0001 C CNN "SPN"
 	1    990  5130
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1290 5230 1290 5940
@@ -1120,7 +1120,7 @@ AR Path="/5CAC1A37" Ref="C6"  Part="1"
 AR Path="/5CA09087/5CAC1A37" Ref="C103"  Part="1" 
 F 0 "C6" H 4710 2990 50  0000 R CNN
 F 1 "22µF/25V" H 4960 2870 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4483 2750 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4483 2750 50  0001 C CNN
 F 3 "~" H 4445 2900 50  0001 C CNN
 F 4 "ELNA" H 35  265 50  0001 C CNN "MFR"
 F 5 "RFS-25V220MF3#5" H 35  265 50  0001 C CNN "MPN"
