@@ -309,7 +309,7 @@ F 3 "~" H 7720 1955 50  0001 C CNN
 F 4 "xsw35" H 35  265 50  0001 C CNN "SPN"
 F 5 "TT" H 35  265 50  0001 C CNN "SPR"
 	1    7720 1955
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7205 2055 7520 2055
@@ -424,29 +424,12 @@ Wire Wire Line
 	7235 1855 7400 1855
 Text Label 7235 1855 0    50   ~ 0
 SIMCAB_OUT
-Text Label 10465 6320 0    50   ~ 0
-SIMCAB_OUT
 Text Label 10465 6420 0    50   ~ 0
 GNDS
-Text Label 10465 6220 0    50   ~ 0
-LINE_OUT
 Wire Wire Line
 	7530 2565 7205 2565
 Wire Wire Line
 	7205 2565 7205 2055
-$Comp
-L Switch:SW_DPDT_x2 SW2
-U 2 1 5CB34261
-P 7730 2465
-F 0 "SW2" H 7715 2300 50  0000 C CNN
-F 1 "SIMCAB" H 7720 2225 50  0000 C CNN
-F 2 "Switch_lever:SW_CK_Lever_DPDT_72xx" H 7730 2465 50  0001 C CNN
-F 3 "~" H 7730 2465 50  0001 C CNN
-F 4 "xsw35" H 35  265 50  0001 C CNN "SPN"
-F 5 "TT" H 35  265 50  0001 C CNN "SPR"
-	2    7730 2465
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7930 2465 8115 2465
 Wire Wire Line
@@ -1624,4 +1607,21 @@ Wire Notes Line
 	7865 4370 2455 4370
 Text Notes 2435 4370 0    50   ~ 0
 DC-DC Converter
+Text Label 10465 6220 0    50   ~ 0
+LINE_OUT
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 2 1 5CB34261
+P 7730 2465
+F 0 "SW2" H 7715 2300 50  0000 C CNN
+F 1 "SIMCAB" H 7720 2225 50  0000 C CNN
+F 2 "Switch_lever:SW_CK_Lever_DPDT_72xx" H 7730 2465 50  0001 C CNN
+F 3 "~" H 7730 2465 50  0001 C CNN
+F 4 "xsw35" H 35  265 50  0001 C CNN "SPN"
+F 5 "TT" H 35  265 50  0001 C CNN "SPR"
+	2    7730 2465
+	-1   0    0    1   
+$EndComp
+Text Label 10465 6320 0    50   ~ 0
+SIMCAB_OUT
 $EndSCHEMATC
