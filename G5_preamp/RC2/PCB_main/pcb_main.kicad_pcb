@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu19.04.1)
 
   (general
     (thickness 1.6)
@@ -896,7 +896,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model D:/User_Lib_Kicad/Package3d/Connectors.3dshapes/MZT-223_mono.step
+    (model ${KIPRJMOD}/3D/MZT-223_mono.step
       (offset (xyz 21.5 -30.5 -4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -962,7 +962,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model D:/User_Lib_Kicad/Package3d/Connectors.3dshapes/MZT-223_mono.step
+    (model ${KIPRJMOD}/3D/MZT-223_mono.step
       (offset (xyz 21.5 -30.5 -4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -2579,7 +2579,7 @@
       (net 21 GNDREF))
     (pad 1 thru_hole rect (at 0 0 90) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 16 /PEAK))
-    (model "D:/User_Lib_Kicad/Package3d/Capacitor_THT.3dshapes/User Library-CapAluRadial_D100H160.STEP"
+    (model "${KIPRJMOD}/3D/User Library-CapAluRadial_D100H160.STEP"
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2953,7 +2953,7 @@
       (net 17 /HT2))
     (pad 2 thru_hole circle (at 5 0 270) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 21 GNDREF))
-    (model "D:/User_Lib_Kicad/Package3d/Capacitor_THT.3dshapes/User Library-CapAluRadial_D100H200P50.step"
+    (model "${KIPRJMOD}/3D/User Library-CapAluRadial_D100H200P50.step"
       (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -3389,7 +3389,7 @@
       (net 16 /PEAK))
     (pad "" thru_hole circle (at 0 5 180) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
     (pad "" thru_hole circle (at 4 0 180) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
-    (model D:/User_Lib_Kicad/Package3d/Inductor_THT/Murata_1200RS.step
+    (model ${KIPRJMOD}/3D/Murata_1200RS.step
       (offset (xyz 2 -2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
