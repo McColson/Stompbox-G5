@@ -190,8 +190,6 @@ Connection ~ 8250 2255
 Wire Wire Line
 	8250 2255 8570 2255
 Wire Wire Line
-	8560 1380 8800 1380
-Wire Wire Line
 	5685 1855 5960 1855
 Wire Wire Line
 	5685 2255 5710 2255
@@ -275,12 +273,12 @@ $EndComp
 Wire Wire Line
 	6680 1955 6680 2055
 $Comp
-L Connector_Generic:Conn_01x02 GND1
+L Connector_Generic:Conn_01x03 GND1
 U 1 1 5CB74B24
 P 5710 3270
 F 0 "GND1" H 5790 3262 50  0000 L CNN
 F 1 "GND" H 5790 3171 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm" H 5710 3270 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm" H 5710 3270 50  0001 C CNN
 F 3 "~" H 5710 3270 50  0001 C CNN
 	1    5710 3270
 	0    1    1    0   
@@ -471,8 +469,6 @@ Wire Wire Line
 	8570 2005 8570 2255
 Wire Wire Line
 	8570 2005 8715 2005
-Wire Wire Line
-	5710 3065 8715 3065
 Wire Wire Line
 	8715 3065 8715 2105
 Wire Wire Line
@@ -999,8 +995,6 @@ Text Label 9005 4965 0    50   ~ 0
 K_V1B
 Text Label 9005 5165 0    50   ~ 0
 A_V1A
-Text Label 8800 1380 0    50   ~ 0
-GNDS
 Connection ~ 4125 2265
 Wire Wire Line
 	4125 2265 4125 1775
@@ -1402,11 +1396,6 @@ Wire Wire Line
 Wire Wire Line
 	3775 1920 3775 1775
 Connection ~ 4845 3070
-Connection ~ 5710 3065
-Wire Wire Line
-	5710 3065 5710 3070
-Wire Wire Line
-	5710 2255 5710 3065
 Wire Wire Line
 	1255 1995 1450 1995
 Wire Wire Line
@@ -1624,4 +1613,17 @@ F 5 "TT" H 35  265 50  0001 C CNN "SPR"
 $EndComp
 Text Label 10465 6320 0    50   ~ 0
 SIMCAB_OUT
+Wire Wire Line
+	5710 2255 5710 3070
+Wire Wire Line
+	8715 3065 5810 3065
+Wire Wire Line
+	5810 3065 5810 3070
+Wire Wire Line
+	9455 1380 9455 3065
+Wire Wire Line
+	9455 3065 8715 3065
+Wire Wire Line
+	8560 1380 9455 1380
+Connection ~ 8715 3065
 $EndSCHEMATC
