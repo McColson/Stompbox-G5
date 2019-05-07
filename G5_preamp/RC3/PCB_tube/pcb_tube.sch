@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Preamp G5 with Pistortion System"
-Date "2019-04-25"
-Rev "RC2"
+Date "2019-05-07"
+Rev "RC3"
 Comp "http://www.projetg5.com"
 Comment1 ""
 Comment2 "Licence under Creative Commons BY-NC-SA 4.0"
