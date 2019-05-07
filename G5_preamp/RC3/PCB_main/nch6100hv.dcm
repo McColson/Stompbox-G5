@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCH6100HV
+D NCH DC/DC converter module, 10V-24V input voltage, 80V-235V output voltage
+K NCH dc-dc converter step-up
+F https://elty.pl/pl/p/file/ca247d15f86f21efcaf90591a05a01f2/NIXIE-Power-Supply-Datasheet-EN-v1.0.0.pdf
+$ENDCMP
+#
+#End Doc Library
