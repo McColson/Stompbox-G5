@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Preamp G5 with Pistortion System"
-Date "2019-05-07"
+Date "2019-05-09"
 Rev "RC3"
 Comp "http://www.projetg5.com"
 Comment1 ""
@@ -422,7 +422,7 @@ Wire Wire Line
 	7235 1855 7400 1855
 Text Label 7235 1855 0    50   ~ 0
 SIMCAB_OUT
-Text Label 10465 6420 0    50   ~ 0
+Text Label 10465 6320 0    50   ~ 0
 GNDS
 Wire Wire Line
 	7530 2565 7205 2565
@@ -1539,7 +1539,7 @@ Wire Notes Line
 	7865 4370 2455 4370
 Text Notes 2435 4370 0    50   ~ 0
 DC-DC Converter
-Text Label 10465 6320 0    50   ~ 0
+Text Label 10465 6420 0    50   ~ 0
 LINE_OUT
 $Comp
 L Switch:SW_DPDT_x2 SW2
