@@ -36,23 +36,6 @@ Wire Wire Line
 Wire Wire Line
 	1290 5030 1290 4710
 $Comp
-L Device:R_POT Volume1
-U 1 1 5CAC1A0E
-P 6520 2055
-AR Path="/5CAC1A0E" Ref="Volume1"  Part="1" 
-AR Path="/5CA09087/5CAC1A0E" Ref="RV112"  Part="1" 
-F 0 "Volume1" H 6745 2340 50  0000 R CNN
-F 1 "1k" H 6625 2440 50  0000 R CNN
-F 2 "ProjectLib_main:Potentiometer_Alpha_RV16AF41_Single_Vertical" H 6520 2055 50  0001 C CNN
-F 3 "~" H 6520 2055 50  0001 C CNN
-F 4 "ALPHA" H -425 -135 50  0001 C CNN "MFR"
-F 5 "RV16" H 35  265 50  0001 C CNN "MPN"
-F 6 "TT" H 35  265 50  0001 C CNN "SPR"
-F 7 "apo16AF-B1k" H 35  265 50  0001 C CNN "SPN"
-	1    6520 2055
-	1    0    0    1   
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CAC1A15
 P 1510 4625
@@ -134,68 +117,9 @@ Wire Wire Line
 Connection ~ 5960 1855
 Connection ~ 5960 2255
 Wire Wire Line
-	5960 2255 6105 2255
-$Comp
-L Device:R R20
-U 1 1 5CAC1C14
-P 6255 2255
-AR Path="/5CAC1C14" Ref="R20"  Part="1" 
-AR Path="/5CA09087/5CAC1C14" Ref="R136"  Part="1" 
-F 0 "R20" V 6370 2255 50  0000 C CNN
-F 1 "330R" V 6461 2255 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6185 2255 50  0001 C CNN
-F 3 "~" H 6255 2255 50  0001 C CNN
-F 4 "LR1F330R" H 35  265 50  0001 C CNN "MPN"
-F 5 "279-LR1F330R" H 35  265 50  0001 C CNN "SPN"
-F 6 "MOUSER" H 35  265 50  0001 C CNN "SPR"
-F 7 "TE Connectivity" H 35  265 50  0001 C CNN "MFR"
-	1    6255 2255
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6405 2255 6520 2255
-$Comp
-L Device:R R19
-U 1 1 5CAC1C1B
-P 6255 1855
-AR Path="/5CAC1C1B" Ref="R19"  Part="1" 
-AR Path="/5CA09087/5CAC1C1B" Ref="R135"  Part="1" 
-F 0 "R19" V 6048 1855 50  0000 C CNN
-F 1 "330R" V 6139 1855 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6185 1855 50  0001 C CNN
-F 3 "~" H 6255 1855 50  0001 C CNN
-F 4 "LR1F330R" H 35  265 50  0001 C CNN "MPN"
-F 5 "279-LR1F330R" H 35  265 50  0001 C CNN "SPN"
-F 6 "MOUSER" H 35  265 50  0001 C CNN "SPR"
-F 7 "TE Connectivity" H 35  265 50  0001 C CNN "MFR"
-	1    6255 1855
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5960 1855 6105 1855
-Wire Wire Line
-	6405 1855 6520 1855
-Wire Wire Line
 	6520 1855 6520 1905
 Wire Wire Line
-	6520 1855 6680 1855
-Connection ~ 6520 1855
-Wire Wire Line
-	6520 1855 6520 1380
-Wire Wire Line
-	6520 1380 7950 1380
-Wire Wire Line
-	8250 1380 8250 2255
-Connection ~ 8250 2255
-Wire Wire Line
-	8250 2255 8570 2255
-Wire Wire Line
-	5685 1855 5960 1855
-Wire Wire Line
-	5685 2255 5710 2255
-Connection ~ 5710 2255
-Wire Wire Line
-	5710 2255 5960 2255
+	5685 1855 5919 1855
 $Comp
 L Connector_Generic:Conn_01x01 OT2
 U 1 1 5CB62426
@@ -226,82 +150,15 @@ F 7 "	ha125a" H 35  265 50  0001 C CNN "SPN"
 	1    5485 2255
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 XLR2
-U 1 1 5CB65122
-P 7950 1180
-F 0 "XLR2" V 8040 1295 50  0000 R CNN
-F 1 "2" V 8135 1205 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 7950 1180 50  0001 C CNN
-F 3 "~" H 7950 1180 50  0001 C CNN
-	1    7950 1180
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 XLR1
-U 1 1 5CB66B34
-P 8560 1180
-F 0 "XLR1" V 8650 1295 50  0000 R CNN
-F 1 "1" V 8740 1210 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 8560 1180 50  0001 C CNN
-F 3 "~" H 8560 1180 50  0001 C CNN
-	1    8560 1180
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 XLR3
-U 1 1 5CB7099F
-P 8250 1180
-F 0 "XLR3" V 8340 1295 50  0000 R CNN
-F 1 "3" V 8435 1210 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 8250 1180 50  0001 C CNN
-F 3 "~" H 8250 1180 50  0001 C CNN
-	1    8250 1180
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J8
-U 1 1 5CB71CD1
-P 6880 1855
-F 0 "J8" H 6798 2072 50  0000 C CNN
-F 1 "LEVEL 3-2" H 6798 1981 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6880 1855 50  0001 C CNN
-F 3 "~" H 6880 1855 50  0001 C CNN
-	1    6880 1855
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6680 1955 6680 2055
-$Comp
-L Connector_Generic:Conn_01x03 GND1
-U 1 1 5CB74B24
-P 5710 3270
-F 0 "GND1" H 5790 3262 50  0000 L CNN
-F 1 "GND" H 5790 3171 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill1mm" H 5710 3270 50  0001 C CNN
-F 3 "~" H 5710 3270 50  0001 C CNN
-	1    5710 3270
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6670 2055 6680 2055
-Wire Wire Line
-	7205 2055 6680 2055
-Connection ~ 6680 2055
-Connection ~ 6520 2255
 Connection ~ 7205 2055
-Wire Wire Line
-	6520 2255 8250 2255
-Wire Wire Line
-	7920 1955 8115 1955
 Wire Wire Line
 	8115 1905 8115 1955
 $Comp
 L Switch:SW_DPDT_x2 SW2
 U 1 1 5CB332B3
 P 7720 1955
-F 0 "SW2" H 7695 1795 50  0000 C CNN
-F 1 "SIMCAB" H 7690 1720 50  0000 C CNN
+F 0 "SW2" H 7703 1746 50  0000 C CNN
+F 1 "SIMCAB" H 7700 1682 50  0000 C CNN
 F 2 "Switch_lever:SW_CK_Lever_DPDT_72xx" H 7720 1955 50  0001 C CNN
 F 3 "~" H 7720 1955 50  0001 C CNN
 F 4 "xsw35" H 35  265 50  0001 C CNN "SPN"
@@ -397,17 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	10130 5005 10430 5005
 $Comp
-L Connector_Generic:Conn_01x06 J2
-U 1 1 5CC81277
-P 8805 4865
-F 0 "J2" H 9095 4905 50  0000 L CNN
-F 1 "PCB_TUBE" H 8925 4800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 8805 4865 50  0001 C CNN
-F 3 "~" H 8805 4865 50  0001 C CNN
-	1    8805 4865
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 5CCAB0E9
 P 10265 6320
@@ -420,7 +266,7 @@ F 3 "~" H 10265 6320 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7235 1855 7400 1855
-Text Label 7235 1855 0    50   ~ 0
+Text Label 7235 1855 2    50   ~ 0
 SIMCAB_OUT
 Text Label 10465 6320 0    50   ~ 0
 GNDS
@@ -440,37 +286,12 @@ Wire Wire Line
 Connection ~ 7400 1855
 Wire Wire Line
 	7400 1855 7520 1855
-$Comp
-L Connector:AudioJack3 Ouput1
-U 1 1 5CAC1954
-P 8915 2005
-AR Path="/5CAC1954" Ref="Ouput1"  Part="1" 
-AR Path="/5CA09087/5CAC1954" Ref="J17"  Part="1" 
-F 0 "Ouput1" H 8685 2060 50  0000 R CNN
-F 1 "Out" H 8685 1980 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 8915 2005 50  0001 C CNN
-F 3 "~" H 8915 2005 50  0001 C CNN
-F 4 "NEUTRICK" H -425 -135 50  0001 C CNN "MFR"
-F 5 "TT" H 35  265 50  0001 C CNN "SPR"
-F 6 "nmj6hcd2" H 35  265 50  0001 C CNN "MPN"
-F 7 "neu-nmj6hcd2" H 35  265 50  0001 C CNN "SPN"
-	1    8915 2005
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8570 1870 8570 1905
-Wire Wire Line
-	8570 1905 8715 1905
 Text Label 9005 4665 0    50   ~ 0
 IN_EFFECT
 Text Label 9005 4865 0    50   ~ 0
 G_V1B
 Wire Wire Line
-	8570 2005 8570 2255
-Wire Wire Line
 	8570 2005 8715 2005
-Wire Wire Line
-	8715 3065 8715 2105
 Wire Wire Line
 	2490 4710 2490 5260
 Connection ~ 2490 4710
@@ -967,12 +788,11 @@ Wire Notes Line
 	4540 6815 4540 7335
 Wire Notes Line
 	4870 6825 4870 7335
-NoConn ~ 9005 5065
 Text Label 9005 4765 0    50   ~ 0
 BOOST
 Text Label 10130 4805 0    50   ~ 0
 LINE_OUT
-Text Label 6970 2055 0    50   ~ 0
+Text Label 6785 2055 0    50   ~ 0
 LINE_OUT
 Text Label 9005 4455 0    50   ~ 0
 GNDS
@@ -993,7 +813,7 @@ F 3 "" H 1940 6045 50  0001 C CNN
 $EndComp
 Text Label 9005 4965 0    50   ~ 0
 K_V1B
-Text Label 9005 5165 0    50   ~ 0
+Text Label 9005 5265 0    50   ~ 0
 A_V1A
 Connection ~ 4125 2265
 Wire Wire Line
@@ -1424,8 +1244,6 @@ Wire Wire Line
 Wire Wire Line
 	3585 3070 4445 3070
 Connection ~ 4445 3070
-Wire Wire Line
-	4845 3070 5610 3070
 $Comp
 L Connector_Generic:Conn_01x06 J7
 U 1 1 5CC33192
@@ -1443,7 +1261,7 @@ Text Label 1450 1755 1    50   ~ 0
 IN_JACK
 Text Label 8115 1905 1    50   ~ 0
 OUT_EFFECT
-Text Label 8570 1870 1    50   ~ 0
+Text Label 8469 1660 0    50   ~ 0
 OUT_JACK
 Text Label 8865 5920 0    50   ~ 0
 IN_JACK
@@ -1556,17 +1374,129 @@ F 5 "TT" H 35  265 50  0001 C CNN "SPR"
 $EndComp
 Text Label 10465 6220 0    50   ~ 0
 SIMCAB_OUT
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5CDA353E
+P 8805 4965
+F 0 "J2" H 9090 5097 50  0000 C CNN
+F 1 "PCB_TUBE" H 9104 4915 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 8805 4965 50  0001 C CNN
+F 3 "~" H 8805 4965 50  0001 C CNN
+	1    8805 4965
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 9005 5165
+Text Label 9005 5065 0    50   ~ 0
+NFB
 Wire Wire Line
-	5710 2255 5710 3070
+	5919 1855 5919 1693
+Connection ~ 5919 1855
 Wire Wire Line
-	8715 3065 5810 3065
+	5919 1855 5960 1855
+Text Label 5919 1393 0    50   ~ 0
+NFB
+$Comp
+L Device:R_POT Volume1
+U 1 1 5CAC1A0E
+P 6520 2055
+AR Path="/5CAC1A0E" Ref="Volume1"  Part="1" 
+AR Path="/5CA09087/5CAC1A0E" Ref="RV112"  Part="1" 
+F 0 "Volume1" H 6774 1785 50  0000 R CNN
+F 1 "1k" H 6656 1884 50  0000 R CNN
+F 2 "ProjectLib_main:Potentiometer_Alpha_RV16AF41_Single_Vertical" H 6520 2055 50  0001 C CNN
+F 3 "~" H 6520 2055 50  0001 C CNN
+F 4 "ALPHA" H -425 -135 50  0001 C CNN "MFR"
+F 5 "RV16" H 35  265 50  0001 C CNN "MPN"
+F 6 "TT" H 35  265 50  0001 C CNN "SPR"
+F 7 "apo16AF-B1k" H 35  265 50  0001 C CNN "SPN"
+	1    6520 2055
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	5810 3065 5810 3070
+	6670 2055 7205 2055
 Wire Wire Line
-	9455 1380 9455 3065
+	5960 1855 6520 1855
 Wire Wire Line
-	9455 3065 8715 3065
+	5960 2255 6520 2255
+$Comp
+L Connector_Generic:Conn_01x01 XLR1
+U 1 1 5CB66B34
+P 9455 1175
+F 0 "XLR1" V 9545 1290 50  0000 R CNN
+F 1 "1" V 9635 1205 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 9455 1175 50  0001 C CNN
+F 3 "~" H 9455 1175 50  0001 C CNN
+	1    9455 1175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:AudioJack2 Output1
+U 1 1 5CE7C33D
+P 8915 1905
+AR Path="/5CE7C33D" Ref="Output1"  Part="1" 
+AR Path="/5CA09087/5CE7C33D" Ref="Input?"  Part="1" 
+F 0 "Output1" H 8945 2230 50  0000 C CNN
+F 1 "Output" H 8945 2139 50  0000 C CNN
+F 2 "ProjectLib_main:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal" H 8915 1905 50  0001 C CNN
+F 3 "~" H 8915 1905 50  0001 C CNN
+F 4 "NEUTRICK" H 7435 -225 50  0001 C CNN "MFR"
+F 5 "TT" H 7895 175 50  0001 C CNN "SPR"
+F 6 "nmj4hcd2" H 7895 175 50  0001 C CNN "MPN"
+F 7 "neu-nmj4hcd2" H 7895 175 50  0001 C CNN "SPN"
+	1    8915 1905
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	8560 1380 9455 1380
-Connection ~ 8715 3065
+	8570 2005 8570 3065
+Connection ~ 8570 3065
+Wire Wire Line
+	8570 3065 9455 3065
+Wire Wire Line
+	5685 2255 5960 2255
+Wire Wire Line
+	6525 3070 8570 3065
+Wire Wire Line
+	6520 2255 6520 3070
+Connection ~ 6520 2255
+Connection ~ 6520 3070
+Wire Wire Line
+	6520 3070 6525 3070
+Wire Wire Line
+	4845 3070 6520 3070
+Wire Wire Line
+	7920 1955 8115 1955
+Wire Wire Line
+	8469 1905 8715 1905
+Wire Wire Line
+	9455 1375 9455 3065
+Wire Wire Line
+	8469 1370 8469 1905
+$Comp
+L Connector_Generic:Conn_01x01 XLR2
+U 1 1 5CB65122
+P 8469 1170
+F 0 "XLR2" V 8559 1285 50  0000 R CNN
+F 1 "2" V 8654 1195 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill2mm" H 8469 1170 50  0001 C CNN
+F 3 "~" H 8469 1170 50  0001 C CNN
+	1    8469 1170
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5CFB2150
+P 5919 1543
+AR Path="/5CFB2150" Ref="R19"  Part="1" 
+AR Path="/5CA09087/5CFB2150" Ref="R?"  Part="1" 
+F 0 "R19" H 5849 1589 50  0000 R CNN
+F 1 "82k" H 5849 1498 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5849 1543 50  0001 C CNN
+F 3 "~" H 5919 1543 50  0001 C CNN
+F 4 "TT" H -6  -247 50  0001 C CNN "SPR"
+F 5 "VITROHM" H -6  -247 50  0001 C CNN "MFR"
+F 6 " PO593-0" H -6  -247 50  0001 C CNN "MPN"
+F 7 "rmo-100-2" H -6  -247 50  0001 C CNN "SPN"
+	1    5919 1543
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

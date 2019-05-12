@@ -39,7 +39,7 @@ AR Path="/5CB3217C" Ref="R3"  Part="1"
 AR Path="/5CAC8720/5CB3217C" Ref="R?"  Part="1" 
 F 0 "R3" H 2310 2761 50  0000 L CNN
 F 1 "120k" H 2310 2670 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2170 2715 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2170 2715 50  0001 C CNN
 F 3 "~" H 2240 2715 50  0001 C CNN
 F 4 "TE Connectivity" H -285 -35 50  0001 C CNN "MFR"
 F 5 "MOUSER" H -285 -35 50  0001 C CNN "SPN"
@@ -73,7 +73,7 @@ AR Path="/5CB32194" Ref="R7"  Part="1"
 AR Path="/5CAC8720/5CB32194" Ref="R?"  Part="1" 
 F 0 "R7" H 5210 2761 50  0000 L CNN
 F 1 "100k" H 5210 2670 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 2715 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5070 2715 50  0001 C CNN
 F 3 "~" H 5140 2715 50  0001 C CNN
 F 4 "TE Connectivity" H -285 -35 50  0001 C CNN "MFR"
 F 5 "MOUSER" H -285 -35 50  0001 C CNN "SPN"
@@ -232,7 +232,7 @@ AR Path="/5CB3224E" Ref="R27"  Part="1"
 AR Path="/5CAC8720/5CB3224E" Ref="R?"  Part="1" 
 F 0 "R27" V 5583 1865 50  0000 C CNN
 F 1 "1k" V 5674 1865 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5720 1865 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5720 1865 50  0001 C CNN
 F 3 "~" H 5790 1865 50  0001 C CNN
 F 4 "TE Connectivity" H -285 -35 50  0001 C CNN "MFR"
 F 5 "MOUSER" H -285 -35 50  0001 C CNN "SPN"
@@ -249,7 +249,7 @@ AR Path="/5CB32254" Ref="R26"  Part="1"
 AR Path="/5CAC8720/5CB32254" Ref="R?"  Part="1" 
 F 0 "R26" V 7733 1865 50  0000 C CNN
 F 1 "1k" V 7824 1865 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7870 1865 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7870 1865 50  0001 C CNN
 F 3 "~" H 7940 1865 50  0001 C CNN
 F 4 "TE Connectivity" H -285 -35 50  0001 C CNN "MFR"
 F 5 "MOUSER" H -285 -35 50  0001 C CNN "SPN"
@@ -293,25 +293,10 @@ F 3 "" H 6390 2365 50  0001 C CNN
 	1    6390 2365
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDS #PWR07
-U 1 1 5CB32272
-P 7785 4715
-AR Path="/5CB32272" Ref="#PWR07"  Part="1" 
-AR Path="/5CAC8720/5CB32272" Ref="#PWR?"  Part="1" 
-F 0 "#PWR07" H 7785 4465 50  0001 C CNN
-F 1 "GNDS" H 7790 4542 50  0000 C CNN
-F 2 "" H 7785 4715 50  0001 C CNN
-F 3 "" H 7785 4715 50  0001 C CNN
-	1    7785 4715
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1740 2265 1740 2270
 Wire Wire Line
 	6390 2265 6390 2365
-Wire Wire Line
-	7785 4615 7785 4715
 Wire Wire Line
 	2240 2565 2240 1865
 Connection ~ 2240 1865
@@ -365,8 +350,6 @@ Wire Wire Line
 	7485 3165 7485 2925
 Wire Wire Line
 	7625 2725 7625 1865
-Wire Wire Line
-	7785 3565 7785 4280
 Wire Wire Line
 	6945 3965 7265 3965
 Connection ~ 7265 3965
@@ -435,31 +418,7 @@ Wire Wire Line
 Wire Wire Line
 	7265 4595 7265 4615
 Wire Wire Line
-	7265 4615 7785 4615
-$Comp
-L Device:C C10
-U 1 1 5CB32341
-P 7785 4435
-AR Path="/5CB32341" Ref="C10"  Part="1" 
-AR Path="/5CAC8720/5CB32341" Ref="C?"  Part="1" 
-F 0 "C10" H 7900 4481 50  0000 L CNN
-F 1 "100n" H 7900 4390 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4" H 7823 4285 50  0001 C CNN
-F 3 "~" H 7785 4435 50  0001 C CNN
-F 4 "WIMA" H -285 -35 50  0001 C CNN "MFR"
-F 5 "MOUSER" H -285 -35 50  0001 C CNN "SPN"
-F 6 "505-MKS4.1/400/10" H -285 -35 50  0001 C CNN "SPR"
-F 7 "MKS4G031002E00KSSD" H -285 -35 50  0001 C CNN "MPN"
-	1    7785 4435
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7785 4585 7785 4615
-Wire Wire Line
 	7660 4280 7785 4280
-Connection ~ 7785 4280
-Wire Wire Line
-	7785 4280 7785 4285
 $Comp
 L Device:C C9
 U 1 1 5CB3234B
@@ -540,7 +499,6 @@ Connection ~ 4645 4615
 Wire Wire Line
 	5040 4615 6030 4615
 Connection ~ 5040 4615
-Connection ~ 7265 4615
 Wire Wire Line
 	6430 3565 6410 3565
 Wire Wire Line
@@ -582,15 +540,15 @@ Wire Wire Line
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5CA05BC1
-P 3225 6290
+P 2127 7182
 AR Path="/5C8CB3D6/5CA05BC1" Ref="#PWR?"  Part="1" 
 AR Path="/5CA05BC1" Ref="#PWR03"  Part="1" 
 AR Path="/5CAC8720/5CA05BC1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 3225 6040 50  0001 C CNN
-F 1 "GNDREF" H 3230 6115 50  0000 C CNN
-F 2 "" H 3225 6290 50  0001 C CNN
-F 3 "" H 3225 6290 50  0001 C CNN
-	1    3225 6290
+F 0 "#PWR03" H 2127 6932 50  0001 C CNN
+F 1 "GNDREF" H 2132 7007 50  0000 C CNN
+F 2 "" H 2127 7182 50  0001 C CNN
+F 3 "" H 2127 7182 50  0001 C CNN
+	1    2127 7182
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2290 6290
@@ -619,7 +577,7 @@ Wire Wire Line
 Wire Wire Line
 	7485 2925 8010 2925
 Text Label 10510 1195 0    50   ~ 0
-24VDC
+HEATER
 Text Label 2500 6290 0    50   ~ 0
 HEATER2
 Text Label 2350 2990 0    50   ~ 0
@@ -641,18 +599,6 @@ F 3 "~" H 10310 1195 50  0001 C CNN
 	1    10310 1195
 	-1   0    0    -1  
 $EndComp
-Connection ~ 7785 4615
-$Comp
-L Connector_Generic:Conn_01x06 J2
-U 1 1 5C9FAA2A
-P 10315 1845
-F 0 "J2" H 10590 2030 50  0000 L CNN
-F 1 "PCB_TUBE" H 10435 1845 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10315 1845 50  0001 C CNN
-F 3 "~" H 10315 1845 50  0001 C CNN
-	1    10315 1845
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5040 3875 5040 4065
 Wire Wire Line
@@ -664,7 +610,7 @@ Wire Wire Line
 Connection ~ 2240 2990
 Wire Wire Line
 	2240 2990 2240 3115
-Text Label 10515 2145 0    50   ~ 0
+Text Label 10515 2245 0    50   ~ 0
 A_V1A
 Text Label 10515 1945 0    50   ~ 0
 K_V1B
@@ -683,12 +629,12 @@ K_V1B
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5CA6BE23
-P 1650 6170
-F 0 "#FLG02" H 1650 6245 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 6343 50  0000 C CNN
-F 2 "" H 1650 6170 50  0001 C CNN
-F 3 "~" H 1650 6170 50  0001 C CNN
-	1    1650 6170
+P 2407 6691
+F 0 "#FLG02" H 2407 6766 50  0001 C CNN
+F 1 "PWR_FLAG" H 2407 6864 50  0000 C CNN
+F 2 "" H 2407 6691 50  0001 C CNN
+F 3 "~" H 2407 6691 50  0001 C CNN
+	1    2407 6691
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -728,7 +674,7 @@ F 3 "~" H 2685 6290 50  0001 C CNN
 $EndComp
 Connection ~ 2685 6290
 Wire Wire Line
-	2685 6290 3025 6290
+	2685 6290 2944 6290
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5CB81190
@@ -839,8 +785,6 @@ Connection ~ 6030 3565
 Wire Wire Line
 	6030 3565 6030 3900
 Wire Wire Line
-	6030 4200 6030 4615
-Wire Wire Line
 	6085 3565 6030 3565
 $Comp
 L Device:R R10
@@ -896,7 +840,6 @@ Wire Wire Line
 Connection ~ 5140 2965
 Wire Wire Line
 	5140 2965 5140 3065
-NoConn ~ 10515 2045
 Text Label 10510 1295 0    50   ~ 0
 PWR_GND
 Text Label 10510 1395 0    50   ~ 0
@@ -906,19 +849,14 @@ PWR_GND
 Connection ~ 5295 6175
 Wire Wire Line
 	5295 6175 5370 6175
-Connection ~ 6030 4615
-Wire Wire Line
-	6030 4615 7265 4615
 Wire Notes Line
 	9495 470  9495 2500
 Wire Notes Line
 	9495 2500 11215 2500
 Wire Notes Line
 	11215 2500 11215 2505
-Text Label 2030 6290 2    50   ~ 0
-24VDC
-Wire Wire Line
-	1650 6290 2190 6290
+Text Label 2407 6759 0    50   ~ 0
+HEATER
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5CC26E28
@@ -935,6 +873,149 @@ Wire Wire Line
 Connection ~ 5215 6180
 Wire Wire Line
 	5215 6180 5215 6175
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5CD5A15D
+P 2541 7245
+F 0 "J4" V 2664 7174 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" V 2842 7214 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2541 7245 50  0001 C CNN
+F 3 "~" H 2541 7245 50  0001 C CNN
+	1    2541 7245
+	0    -1   1    0   
+$EndComp
 Wire Wire Line
-	1650 6290 1650 6170
+	2190 6290 2190 6972
+Wire Wire Line
+	2407 6691 2407 6939
+Wire Wire Line
+	2944 6939 2944 6290
+Connection ~ 2944 6290
+Wire Wire Line
+	2944 6290 3025 6290
+Wire Wire Line
+	2641 6939 2641 7045
+Wire Wire Line
+	2407 6939 2641 6939
+Wire Wire Line
+	2541 6972 2541 7045
+Wire Wire Line
+	2190 6972 2541 6972
+Wire Wire Line
+	2741 7045 2741 6939
+Wire Wire Line
+	2741 6939 2944 6939
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5CE69C46
+P 3225 6290
+AR Path="/5C8CB3D6/5CE69C46" Ref="#PWR?"  Part="1" 
+AR Path="/5CE69C46" Ref="#PWR0101"  Part="1" 
+AR Path="/5CAC8720/5CE69C46" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 3225 6040 50  0001 C CNN
+F 1 "GNDREF" H 3230 6115 50  0000 C CNN
+F 2 "" H 3225 6290 50  0001 C CNN
+F 3 "" H 3225 6290 50  0001 C CNN
+	1    3225 6290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2441 7045 2441 7041
+Wire Wire Line
+	2441 7041 2127 7041
+Wire Wire Line
+	2127 7041 2127 7182
+$Comp
+L Device:R R20
+U 1 1 5CEAF369
+P 7783 4851
+AR Path="/5CEAF369" Ref="R20"  Part="1" 
+AR Path="/5CAC8720/5CEAF369" Ref="R?"  Part="1" 
+F 0 "R20" H 7853 4897 50  0000 L CNN
+F 1 "10k" H 7853 4806 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7713 4851 50  0001 C CNN
+F 3 "~" H 7783 4851 50  0001 C CNN
+F 4 "TE Connectivity" H 233 371 50  0001 C CNN "MFR"
+F 5 "MOUSER" H 233 371 50  0001 C CNN "SPN"
+F 6 "LR1F47K" H 233 371 50  0001 C CNN "MPN"
+F 7 "279-LR1F47K" H 233 371 50  0001 C CNN "SPR"
+	1    7783 4851
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7785 4585 7785 4615
+Text Label 7841 4615 0    50   ~ 0
+NFB
+Wire Wire Line
+	7785 4280 7785 4285
+Wire Wire Line
+	7785 3565 7785 4280
+Connection ~ 7785 4280
+$Comp
+L Device:C C10
+U 1 1 5CB32341
+P 7785 4435
+AR Path="/5CB32341" Ref="C10"  Part="1" 
+AR Path="/5CAC8720/5CB32341" Ref="C?"  Part="1" 
+F 0 "C10" H 7900 4481 50  0000 L CNN
+F 1 "100n" H 7900 4390 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4" H 7823 4285 50  0001 C CNN
+F 3 "~" H 7785 4435 50  0001 C CNN
+F 4 "WIMA" H -285 -35 50  0001 C CNN "MFR"
+F 5 "MOUSER" H -285 -35 50  0001 C CNN "SPN"
+F 6 "505-MKS4.1/400/10" H -285 -35 50  0001 C CNN "SPR"
+F 7 "MKS4G031002E00KSSD" H -285 -35 50  0001 C CNN "MPN"
+	1    7785 4435
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR07
+U 1 1 5CB32272
+P 7783 5121
+AR Path="/5CB32272" Ref="#PWR07"  Part="1" 
+AR Path="/5CAC8720/5CB32272" Ref="#PWR?"  Part="1" 
+F 0 "#PWR07" H 7783 4871 50  0001 C CNN
+F 1 "GNDS" H 7788 4948 50  0000 C CNN
+F 2 "" H 7783 5121 50  0001 C CNN
+F 3 "" H 7783 5121 50  0001 C CNN
+	1    7783 5121
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6030 4200 6030 4615
+Connection ~ 6030 4615
+Wire Wire Line
+	6030 5047 7783 5047
+Wire Wire Line
+	7783 5001 7783 5047
+Connection ~ 7783 5047
+Wire Wire Line
+	7783 5047 7783 5121
+Wire Wire Line
+	6030 4614 6030 4615
+Wire Wire Line
+	6030 4615 6030 5047
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5CD6F2E6
+P 10315 1945
+F 0 "J2" H 10658 2039 50  0000 C CNN
+F 1 "PCB_TUBE" H 10634 1834 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 10315 1945 50  0001 C CNN
+F 3 "~" H 10315 1945 50  0001 C CNN
+	1    10315 1945
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 10515 2145
+Text Label 10515 2045 0    50   ~ 0
+NFB
+Text Label 2190 6661 2    50   ~ 0
+HEATER1
+Wire Wire Line
+	7265 4615 7783 4615
+Wire Wire Line
+	7783 4701 7783 4615
+Connection ~ 7783 4615
+Wire Wire Line
+	7783 4615 7841 4615
 $EndSCHEMATC
