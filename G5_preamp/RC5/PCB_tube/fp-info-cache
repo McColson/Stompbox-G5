@@ -1,0 +1,36 @@
+7781418972099
+ProjectLib
+C_Rect_L13.0mm_W4.0mm_P7.5mm_or_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 4mm Capacitor
+0
+3
+3
+ProjectLib
+C_Rect_L13.0mm_W4.0mm_P7.5mm_or_P10.00mm_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*4mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 4mm Capacitor
+0
+3
+2
+ProjectLib
+C_Rect_L13.0mm_W5.0mm_P7.5mm_or_P10.00mm_FKS3_FKP3_MKS4
+C, Rect series, Radial, pin pitch=10.00mm, , length*width=13*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf
+C Rect series Radial pin pitch 10.00mm  length 13mm width 5mm Capacitor
+0
+3
+3
+ProjectLib
+RV09AF-40-ALPHA-POT
+http://www.taydaelectronics.com/datasheets/A-1881.pdf
+TAYDA A1881
+0
+5
+3
+ProjectLib
+Valve_Noval-B9A_Belton-VT9-PT_Socket
+Valve Noval-B9A Belton-VT9-PT Socket, Made by script https://github.com/pointhi/kicad-footprint-generator/scripts/Valves, http://www.belton.co.kr/inc/downfile.php?seq=58&file=pdf
+Valve_Noval-B9A_Belton-VT9-PT_Socket
+0
+9
+9
