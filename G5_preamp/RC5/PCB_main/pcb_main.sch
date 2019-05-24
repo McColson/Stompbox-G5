@@ -1243,8 +1243,6 @@ Wire Notes Line
 Wire Notes Line
 	11220 3750 11220 3755
 Wire Notes Line
-	9460 3750 9460 6535
-Wire Notes Line
 	9460 6535 9465 6535
 Wire Notes Line
 	11220 5490 11220 5495
@@ -1458,31 +1456,31 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x08 J8
 U 1 1 5CEC486B
-P 10042 3090
-F 0 "J8" H 9960 3607 50  0000 C CNN
-F 1 "PCB_OUTPUT" H 9960 3516 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 10042 3090 50  0001 C CNN
-F 3 "~" H 10042 3090 50  0001 C CNN
-	1    10042 3090
+P 10177 3083
+F 0 "J8" H 10095 3600 50  0000 C CNN
+F 1 "PCB_OUTPUT" H 10095 3509 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 10177 3083 50  0001 C CNN
+F 3 "~" H 10177 3083 50  0001 C CNN
+	1    10177 3083
 	-1   0    0    -1  
 $EndComp
-Text Label 10242 2790 0    50   ~ 0
+Text Label 10377 2783 0    50   ~ 0
 RETURN
-Text Label 10242 2890 0    50   ~ 0
+Text Label 10377 2883 0    50   ~ 0
 SEND
-Text Label 10242 2990 0    50   ~ 0
+Text Label 10377 2983 0    50   ~ 0
 OUT_JACK
-Text Label 10242 3090 0    50   ~ 0
+Text Label 10377 3083 0    50   ~ 0
 GNDS
-Text Label 10242 3190 0    50   ~ 0
+Text Label 10377 3183 0    50   ~ 0
 GNDS
-Text Label 10242 3290 0    50   ~ 0
+Text Label 10377 3283 0    50   ~ 0
 OT2
 Text Label 5685 1855 2    50   ~ 0
 OT2
-Text Label 10242 3390 0    50   ~ 0
+Text Label 10377 3383 0    50   ~ 0
 PWR_GND
-Text Label 10242 3490 0    50   ~ 0
+Text Label 10377 3483 0    50   ~ 0
 VDC
 Wire Wire Line
 	6104 1044 5919 1044
@@ -1542,4 +1540,8 @@ F 3 "" H 11144 7108 50  0001 C CNN
 	1    11144 7108
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	9460 2362 11221 2362
+Wire Notes Line
+	9460 2362 9460 6535
 $EndSCHEMATC
